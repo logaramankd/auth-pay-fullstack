@@ -1,0 +1,11 @@
+# Node stuff
+node_modules/
+
+# Vite build output
+frontend/dist/
+
+# Env files
+.env
+
+# Other
+.DS_Store
