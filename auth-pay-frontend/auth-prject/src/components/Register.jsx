@@ -12,7 +12,7 @@ const Register = () => {
         console.log('Trying to register:', { userName, email, password });
 
         try {
-            await axios.post('http://localhost:5000/register', {
+            await axios.post('https://auth-pay-fullstack.onrender.com/register', {
                 userName, email, password
             })
             alert('Registered successfully! Please login.')
