@@ -24,7 +24,7 @@ const Landing = () => {
 
   const handlePayment = async () => {
     try {
-      const res = await fetch('http://localhost:5000/payment', {
+      const res = await fetch('https://auth-pay-fullstack.onrender.com/payment', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
