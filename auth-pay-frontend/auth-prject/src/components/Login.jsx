@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
     console.log('login try with ', ({ email, password }));
     try {
-      const res = await axios.post('http://localhost:5000/login', {
+      const res = await axios.post('https://auth-pay-fullstack.onrender.com/login', {
         email,
         password
       })
